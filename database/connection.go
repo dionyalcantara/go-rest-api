@@ -33,6 +33,7 @@ func InitDB() (*sql.DB, error) {
 		return nil, err
 	}
 
+
 	fmt.Println("Conexão com o banco de dados foi um sucesso")
 
 	return db, nil
